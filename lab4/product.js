@@ -29,7 +29,7 @@ function findMinMax(products) {
     }
     return { min: min, max: max };
 }
-// Test
+
 console.log("Sản phẩm Điện tử:", filterByCategory(exports.products, "Điện tử"));
 console.log("Tổng giá trị sản phẩm:", calculateTotalPrice(exports.products));
 console.log("Sản phẩm nhỏ nhất và lớn nhất:", findMinMax(exports.products));

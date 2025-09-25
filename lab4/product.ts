@@ -32,7 +32,7 @@ export function findMinMax(products: Product[]): { min: Product, max: Product } 
     return { min, max };
 }
 
-// Test
+
 console.log("Sản phẩm Điện tử:", filterByCategory(products, "Điện tử"));
 console.log("Tổng giá trị sản phẩm:", calculateTotalPrice(products));
 console.log("Sản phẩm nhỏ nhất và lớn nhất:", findMinMax(products));
